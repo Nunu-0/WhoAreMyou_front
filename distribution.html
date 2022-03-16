@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8d0d2a3c03.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@700&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="distribution.css">
+    <script src="src/calendar.js" defer></script>
+    <title>넌 누구냥?</title>
+</head>
+<body>
+    <!-- Navbar ----------------------------------------------------- -->
+    <nav id="navbar">
+        <!-- Logo -->
+        <section class="navbar__logo">
+            <a href="index.html" ><i class="fas fa-paw"></i>
+            <h1 class="header_titile">넌 누구냥?</h1></a>
+        </section>
+        <!-- Login Btn-->
+        <a class="navbar__login" href="login.html">
+        <i class="far fa-user icon"></i> 
+        LOGIN</a>
+        </button>
+        <!-- Menu -->
+        <ul class="navbar__menu">
+            <li class="navbar__menu">
+                <a class="navbar__menu__item" href='index.html'>
+                <i class="fas fa-cat icon"></i>
+                고양이</a>
+            </li>
+            <li class="navbar__menu">
+                <a class="navbar__menu__item" href="distribution.html">
+                <i class="fas fa-fish icon"></i> 
+                밥</a>
+            </li>
+            <li class="navbar__menu">
+                <a class="navbar__menu__item" href="video.html">
+                <i class="fas fa-desktop icon"></i> 
+                CCTV</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- Check List ------------------------------------------------- -->
+    <section id="checkList" class="section">
+        <!-- Main Visual title -->
+        <section class="visual__container">
+            <h1 class="visual__title">밥은 먹었냥?</h1>
+        </section>
+
+        <!--Checklist-->
+        <nav class="checkList__timeNav">
+            <button class="nav_btn go_yesterday" 
+            onclick="prevYesterday()">&lt;</button>
+            <button class="nav_btn go_today month_day"
+            onclick="Today()"></button>
+            <button class="nav_btn go_tomorrow"
+            onclick="nextTomorrow()">&gt;</button>
+        </nav>
+        <table class="checkLists">
+            <tr class="checkList__Nav">
+                <td></td>
+                <th>밥</th>
+                <th>핫팩</th>
+            </tr>
+            <tr class="checkList">
+                <th id="R" class="local">미래백년관</th>
+                <td>
+                    <input type="checkbox" name="Rfood" 
+                    value="1" id="food">
+                    <input type="hidden" name="Rfood"
+                    value="0" id="food_hidden">
+                </td>
+                <td>
+                    <input type="checkbox" name="Rfood"
+                    value="1" id="food">
+                    <input type="hidden" name="Rfood" 
+                    value="0" id="food_hidden">
+                </td>
+            </tr>
+            <tr class="checkList">
+                <th id="L" class="local">학술정보관</th>
+                <td>
+                    <input type="checkbox" name="Lfood" 
+                    value="1" id="food">
+                    <input type="hidden" name="Lfood" 
+                    value="0" id="food_hidden">
+                </td>
+                <td>
+                    <input type="checkbox" name="Lfood" 
+                    value="1" id="food">
+                    <input type="hidden" name="Lfood" 
+                    value="0" id="food_hidden">
+                </td>
+            </tr>                
+        </table>
+        <button class="checkList__storage">저장</button>
+    </section>
+        
+    <!--Calendar --------------------------------------------------- -->
+    <section id="calendar" class="section">
+        <nav class="calendar_timeNav">
+            <button class="nav_btn go_prev" 
+            onclick="prevMonth()">&lt;</button>
+            <button class="nav_btn go_today year_month"
+            onclick="goToday()"></button>
+            <button class="nav_btn go_next"
+            onclick="nextMonth()">&gt;</button>
+        </nav>
+        <section class="calendar__container">
+            <div class="days">
+                <div class="day">일</div>
+                <div class="day">월</div>
+                <div class="day">화</div>
+                <div class="day">수</div>
+                <div class="day">목</div>
+                <div class="day">금</div>
+                <div class="day">토</div>
+            </div>
+            <section class="dates"></section>
+        </section>
+    </section>
+</body>
+</html>

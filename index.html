@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8d0d2a3c03.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@700&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="src/catprofile.js" defer></script>
+    <script src="src/scrollFade.js" defer></script>
+    <script src="src/typing.js" defer></script>
+    <title>넌 누구냥?</title>
+</head>
+<body>
+    <!-- Navbar ----------------------------------------------------- -->
+    <nav id="navbar">
+        <!-- Logo -->
+        <section class="navbar__logo">
+            <a href="index.html" ><i class="fas fa-paw"></i>
+            <h1 class="header_titile">넌 누구냥?</h1></a>
+        </section>
+        <!-- Login Btn-->
+        <a class="navbar__login" href="login.html">
+        <i class="far fa-user icon"></i> 
+        LOGIN</a>
+        </button>
+        <!-- Menu -->
+        <ul class="navbar__menu">
+            <li class="navbar__menu">
+                <a class="navbar__menu__item" href='index.html'>
+                <i class="fas fa-cat icon"></i>
+                고양이</a>
+            </li>
+            <li class="navbar__menu">
+                <a class="navbar__menu__item" href="distribution.html">
+                <i class="fas fa-fish icon"></i> 
+                밥</a>
+            </li>
+            <li class="navbar__menu">
+                <a class="navbar__menu__item" href="video.html">
+                <i class="fas fa-desktop icon"></i> 
+                CCTV</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Visual-------------------------------------------------->
+    <section id ="visual">
+        <div class="text_box">
+            <span class="text"></span><span class="blink">|</span>
+        </div>
+    </section>
+
+    <!--cat profile --------------------------------------------------->
+    <section id="catProfile" class="section">
+        <h1 class="catProfile__title">&lt; 너는 누구냥? &gt;</h1>
+        <div class="cats">
+            <!-- 💡백엔드💡 아랫줄 이용하기-->
+            <div class="cat"><img 
+                src="img/cats/그레이씨.jpg" 
+                alt=""><h3>고양이이름</h3>
+            </div>
+            <div class="cat-Description">
+                <img 
+                src="img/cats/그레이씨.jpg" 
+                alt="">
+                <ul>
+                    <li>이름 : 그레이씨</li>
+                    <li>성별 : 모름</li>
+                    <li>중성화 : X</li>
+                    <li>발견 날짜 : 22.01.25</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="up-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
