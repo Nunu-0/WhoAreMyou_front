@@ -1,7 +1,7 @@
 {
     "cats": [
       {
-        "name": "그레이씨1",
+        "name": "그레이씨",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
@@ -9,100 +9,68 @@
         "number": 1
       },
       {
-        "name": "그레이씨2",
+        "name": "대굴스",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/대굴스.jpeg",
         "number": 2
       },
       {
-        "name": "그레이씨3",
+        "name": "맹이",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/맹이.jpeg",
         "number": 3
       },
       {
-        "name": "그레이씨4",
+        "name": "머쓱이",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/머쓱이.jpeg",
         "number": 4
       },
       {
-        "name": "그레이씨5",
+        "name": "몽땅꼬리",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/몽땅꼬리.jpeg",
         "number": 5
       },
       {
-        "name": "그레이씨6",
+        "name": "연두",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/연두.jpeg",
         "number": 6
       },
       {
-        "name": "그레이씨7",
+        "name": "요둥",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/요둥.jpeg",
         "number": 7
       },
       {
-        "name": "그레이씨8",
+        "name": "요비",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/요비.jpeg",
         "number": 8
       },
       {
-        "name": "그레이씨9",
+        "name": "요정",
         "gender": "None",
         "TNR": "X",
         "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
+        "image": "img/cats/요정.jpeg",
         "number": 9
-      },
-      {
-        "name": "그레이씨10",
-        "gender": "None",
-        "TNR": "X",
-        "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
-        "number": 10
-      },
-      {
-        "name": "그레이씨11",
-        "gender": "None",
-        "TNR": "X",
-        "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
-        "number": 11
-      },
-      {
-        "name": "그레이씨12",
-        "gender": "None",
-        "TNR": "X",
-        "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
-        "number": 12
-      },
-      {
-        "name": "그레이씨13",
-        "gender": "None",
-        "TNR": "X",
-        "uploadDate":"22.01.13",
-        "image": "img/cats/그레이씨.jpg",
-        "number": 13
       }
     ]
   }
